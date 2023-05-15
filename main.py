@@ -12,7 +12,7 @@
 #  usuário #digitar o valor de a. Caso o usuário digite 0 para a, o programa deve imprimir Valor de a inválido e terminar.
 #Se o usuário digitar um valor diferente de 0 para a o programa deve pedir os valores b e c correspondente à equação #ax² + bx + c = 0.
 #Caso o usuário digite um valor de b² - 4ac menor do que 0, o programa deve imprimir A equação não possui raízes reais #e terminar.
-#Caso o usuário digite um valor de b² - 4ac igual a 0, o programa deve imprimir A equação possui apenas uma raiz real #e terminar. Em seguida ele deve imprimir o valor da raiz com exatamente duas casas decimais, independentemente se o #número for inteiro ou não.
+#Caso o usuário digite um valor de b² - 4ac igual a 0, o programa deve imprimir A equação possui uma raiz real #e terminar. Em seguida ele deve imprimir o valor da raiz com exatamente duas casas decimais, independentemente se o #número for inteiro ou não.
 #Caso o usuário digite um valor de b² - 4ac maior do que 0, o programa deve imprimir A equação possui duas raízes #reais e terminar. Em seguida ele deve imprimir o valor das raízes com exatamente duas casas decimais, #independentemente se o número for inteiro ou não. A primeira raiz deve ser menor do que a segunda raiz e termina
 Grau =  int(input("Digite um número;"))
 if Grau < 1:
@@ -42,7 +42,7 @@ if Grau == 2:
         if Delta < 0:
             print("A equação não possui raízes reais")
         if Delta == 0 :
-            print ("A equação possui apenas uma raiz real")
+            print ("A equação possui uma raiz real")
         
             print(raiz1)
         if Delta > 0:
